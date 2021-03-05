@@ -1,0 +1,17 @@
+.not-found {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: monospace;
+  justify-content: center;
+
+  & h1 {
+    font-size: 30px;
+  }
+
+  & h5 {
+    font-size: 12px;
+    margin: 0;
+  }
+}

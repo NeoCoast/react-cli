@@ -1,0 +1,54 @@
+{
+  "name": "@neocoast/react-cli",
+  "version": "1.0.0-alpha.0",
+  "author": "Nicolás Tinte @Tintef",
+  "bin": {
+    "react-cli": "bin/run"
+  },
+  "bugs": "https://github.com/NeoCoast/react-cli/issues",
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.26.0",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "eslint-config-oclif-typescript": "^0.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.9"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/NeoCoast/react-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "@neocoast/react-cli"
+  },
+  "repository": "NeoCoast/react-cli",
+  "scripts": {
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md",
+    "lint": "eslint . --ext .ts --config .eslintrc",
+    "build": "tsc"
+  },
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.2",
+    "@types/fs-extra": "^9.0.8",
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^14.14.7",
+    "fs-extra": "^8.0.1",
+    "glob": "^7.1.6",
+    "inquirer": "^6.5.2",
+    "tslib": "^1.14.1"
+  }
+}

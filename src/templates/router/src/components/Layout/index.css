@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  font-size: monospace;
+  height: calc(100vh - 20px);
+  padding: 10px;
+}
+
+.layout ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.layout li a {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 0 20px;
+}
