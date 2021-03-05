@@ -19,7 +19,8 @@
   },
   "files": [
     "/bin",
-    "/lib"
+    "/lib",
+		"/src/templates"
   ],
   "homepage": "https://github.com/NeoCoast/react-cli",
   "keywords": [
