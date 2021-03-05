@@ -11,7 +11,7 @@ module.exports = ({
   mode = 'production',
   presets = ['babel', 'css', 'scss', 'svg'],
 }) => (
-  webpackMerge(
+  webpackMerge.merge(
     {
       mode,
       entry: {
