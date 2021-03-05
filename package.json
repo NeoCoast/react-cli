@@ -1,6 +1,6 @@
 {
   "name": "@neocoast/react-cli",
-  "version": "1.0.2-alpha.0",
+  "version": "1.0.3-alpha.0",
   "author": "Nicolás Tinte @Tintef",
   "bin": {
     "react-cli": "bin/run"
@@ -20,7 +20,7 @@
   "files": [
     "/bin",
     "/lib",
-		"/src/templates"
+    "/src/templates"
   ],
   "homepage": "https://github.com/NeoCoast/react-cli",
   "keywords": [

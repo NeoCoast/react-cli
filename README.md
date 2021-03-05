@@ -17,7 +17,7 @@ $ npm install -g @neocoast/react-cli
 $ @neocoast/react-cli COMMAND
 running command...
 $ @neocoast/react-cli (-v|--version|version)
-@neocoast/react-cli/1.0.2-alpha.0 darwin-x64 node-v12.20.2
+@neocoast/react-cli/1.0.3-alpha.0 darwin-x64 node-v12.20.2
 $ @neocoast/react-cli --help [COMMAND]
 USAGE
   $ @neocoast/react-cli COMMAND
