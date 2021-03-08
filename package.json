@@ -3,7 +3,7 @@
   "version": "1.0.5-alpha.0",
   "author": "Nicolás Tinte @Tintef",
   "bin": {
-    "react-cli": "bin/run"
+    "neocoast-react-cli": "bin/run"
   },
   "bugs": "https://github.com/NeoCoast/react-cli/issues",
   "devDependencies": {
@@ -29,7 +29,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "@neocoast/react-cli"
+    "bin": "neocoast-react-cli"
   },
   "repository": "NeoCoast/react-cli",
   "scripts": {
