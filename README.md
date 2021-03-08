@@ -28,3 +28,10 @@ USAGE
 <!-- commands -->
 
 <!-- commandsstop -->
+
+# Roadmap
+
+- Add testing support (jest and cypress)
+- Add GraphQL support (Apollo client)
+- Grab author from local git configuration
+- Add less and postcss support
