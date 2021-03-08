@@ -3,7 +3,7 @@
   "version": "1.0.4-alpha.0",
   "author": "Nicolás Tinte @Tintef",
   "bin": {
-    "react-cli": "bin/run"
+    "@neocoast/react-cli": "bin/run"
   },
   "bugs": "https://github.com/NeoCoast/react-cli/issues",
   "devDependencies": {
