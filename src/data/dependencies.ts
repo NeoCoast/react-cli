@@ -13,6 +13,7 @@ export default {
       '@svgr/webpack',
       'babel-loader',
       'css-loader',
+      'dotenv',
       'html-loader',
       'html-webpack-plugin',
       'style-loader',

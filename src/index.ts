@@ -78,7 +78,7 @@ class ReactCli extends Command {
         }
       );
     } catch (error) {
-      console.error(error);
+      throw new Error('⚠️ SSomething went wrong".');
     }
   }
 
@@ -147,4 +147,3 @@ class ReactCli extends Command {
 }
 
 export = ReactCli
-
