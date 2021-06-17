@@ -1,6 +1,6 @@
 {
   "name": "@neocoast/react-cli",
-  "version": "1.0.6-alpha.0",
+  "version": "1.0.0",
   "author": "Nicolás Tinte @Tintef",
   "bin": {
     "neocoast-react-cli": "bin/run"
