@@ -48,7 +48,7 @@ export default {
     deps: ['react-router-dom'],
   },
   sass: {
-    devDeps: ['node-sass', 'sass-loader'],
+    devDeps: ['sass', 'sass-loader'],
   },
   stylelint: {
     devDeps: ['stylelint', 'stylelint-config-standard', 'stylelint-order'],
