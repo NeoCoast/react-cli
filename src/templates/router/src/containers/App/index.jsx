@@ -2,7 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
+  Routes,
 } from 'react-router-dom';
 import { ROUTES } from 'Data/constants';
 import Layout from 'Components/Layout';
@@ -15,11 +15,11 @@ import './index.css';
 const App = () => (
   <Router>
     <Layout>
-      <Switch>
+      <Routes>
         <Route exact path={ROUTES.home} component={Home} />
         <Route exact path={ROUTES.about} component={AboutUs} />
         <Route component={NotFound} />
-      </Switch>
+      </Routes>
     </Layout>
   </Router>
 );
